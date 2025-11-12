@@ -1,0 +1,42 @@
+LabTest : Validation Results
+=========================================
+
+err = 3, warn = 4, info = 2
+IG Publisher Version: 2.0.26
+Generated Wed Nov 12 08:23:23 UTC 2025. FHIR version 4.0.1 for smart.who.int.ig-empty#0.1.0 (canonical = http://smart.who.int/ig-empty)
+ Build Errors : 18 / 0 / 0
+ /work/fsh-generated/resources/ImplementationGuide-smart.who.int.ig-empty : 1 / 2 / 1
+ /work/fsh-generated/resources/StructureDefinition-LabPatient : 1 / 1 / 2
+ /work/fsh-generated/resources/ValueSet-ZimGender : 1 / 1 / 2
+</table>
+== n/a ==
+ERROR: StructureDefinition-LabPatient-definitions.html#/html/body/div/div/div/p/span/a at Line 648, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-LabPatient-examples.html#/html/body/div/div/div/p/span/a at Line 276, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-LabPatient-mappings.html#/html/body/div/div/div/p/span/a at Line 888, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-LabPatient-testing.html#/html/body/div/div/div/p/span/a at Line 283, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-LabPatient.html#/html/body/div/div/div/p/span/a at Line 2436, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-LabPatient.profile.history.html#/html/body/div/div/div/p/span/a at Line 265, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-LabPatient.profile.json.html#/html/body/div/div/div/p/span/a at Line 2949, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-LabPatient.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 2388, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-LabPatient.profile.xml.html#/html/body/div/div/div/p/span/a at Line 2743, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-ZimGender-testing.html#/html/body/div/div/div/p/span/a at Line 260, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-ZimGender.change.history.html#/html/body/div/div/div/p/span/a at Line 229, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-ZimGender.html#/html/body/div/div/div/p/span/a at Line 334, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-ZimGender.json.html#/html/body/div/div/div/p/span/a at Line 312, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-ZimGender.ttl.html#/html/body/div/div/div/p/span/a at Line 310, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-ZimGender.xml.html#/html/body/div/div/div/p/span/a at Line 300, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: artifacts.html#/html/body/div/div/div/p/span/a at Line 237, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: index.html#/html/body/div/div/div/p/span/a at Line 283, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: toc.html#/html/body/div/div/div/p/span/a at Line 185, column 119: The link 'license.html' for "License" cannot be resolved
+== fsh-generated/resources/ImplementationGuide-smart.who.int.ig-empty.json ==
+WARNING: ImplementationGuide/smart.who.int.ig-empty: ImplementationGuide.meta.profile[0]: A definition could not be found for Canonical URL 'http://smart.who.int/base/StructureDefinition/SGImplementationGuide'
+ERROR: ImplementationGuide/smart.who.int.ig-empty: ImplementationGuide.jurisdiction[0].coding[0].display: Wrong Display Name 'World' for http://unstats.un.org/unsd/methods/m49/m49.htm#716. Valid display is 'Zimbabwe (ZWE)' (for the language(s) 'en-US')
+WARNING: ImplementationGuide/smart.who.int.ig-empty: ImplementationGuide.meta.profile[0]: Profile reference 'http://smart.who.int/base/StructureDefinition/SGImplementationGuide' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== fsh-generated/resources/StructureDefinition-LabPatient.json ==
+ERROR: StructureDefinition/LabPatient: StructureDefinition.jurisdiction[0].coding[0].display: Wrong Display Name 'World' for http://unstats.un.org/unsd/methods/m49/m49.htm#716. Valid display is 'Zimbabwe (ZWE)' (for the language(s) 'en-US')
+INFORMATION: StructureDefinition/LabPatient: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
+WARNING: StructureDefinition.where(url = 'http://smart.who.int/ig-empty/StructureDefinition/LabPatient'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/ValueSet-ZimGender.json ==
+ERROR: ValueSet/ZimGender: ValueSet.jurisdiction[0].coding[0].display: Wrong Display Name 'World' for http://unstats.un.org/unsd/methods/m49/m49.htm#716. Valid display is 'Zimbabwe (ZWE)' (for the language(s) 'en-US')
+INFORMATION: ValueSet/ZimGender: ValueSet.compose.include[0].concept[2]: The display 'Not Determined' is not valid in the Code system 'Not Determined'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+WARNING: ValueSet/ZimGender: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present

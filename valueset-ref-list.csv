@@ -1,0 +1,2 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+http://smart.who.int/ig-empty/ValueSet/ZimGender,0.1.0,draft,,ZimGenderVS,Gender Allowed in Zimbabwe,"This is the Gender Values that are lawful in Zimbabwe","StructureDefinition/LabPatient","hl7.fhir.r4.core"

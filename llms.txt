@@ -1,0 +1,20 @@
+# smart.who.int.ig-empty#0.1.0: Zimbabwe LabTest IG
+
+## Pages
+
+* [Home](index.md)
+* [Artifacts Summary](artifacts.md)
+
+## Resources
+
+### ValueSets
+
+* [Gender Allowed in Zimbabwe](ValueSet-ZimGender.md)
+
+### Resource Profiles
+
+* [Example Patient Profile](StructureDefinition-LabPatient.md)
+
+### ImplementationGuides
+
+* [Zimbabwe LabTest IG](index.md)

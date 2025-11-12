@@ -1,0 +1,33 @@
+LabTest
+=========================================
+
+Generic: line 0, col 0, Error - The link 'license.html' for "License" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'license.html' for "License" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'license.html' for "License" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'license.html' for "License" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'license.html' for "License" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'license.html' for "License" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'license.html' for "License" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'license.html' for "License" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'license.html' for "License" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'license.html' for "License" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'license.html' for "License" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'license.html' for "License" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'license.html' for "License" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'license.html' for "License" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'license.html' for "License" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'license.html' for "License" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'license.html' for "License" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'license.html' for "License" cannot be resolved (NOTFOUND)
+/work/fsh-generated/resources/ImplementationGuide-smart.who.int.ig-empty.json: line 1, col 157, Warning - A definition could not be found for Canonical URL 'http://smart.who.int/base/StructureDefinition/SGImplementationGuide' (INVALID)
+/work/fsh-generated/resources/ImplementationGuide-smart.who.int.ig-empty.json: line 1, col 1508, Error - Wrong Display Name 'World' for http://unstats.un.org/unsd/methods/m49/m49.htm#716. Valid display is 'Zimbabwe (ZWE)' (for the language(s) 'en-US') (INVALID)
+/work/fsh-generated/resources/ImplementationGuide-smart.who.int.ig-empty.json: line 1, col 12762, Warning - Profile reference 'http://smart.who.int/base/StructureDefinition/SGImplementationGuide' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles (STRUCTURE)
+/work/fsh-generated/resources/StructureDefinition-LabPatient.json: line 1, col 16013, Error - Wrong Display Name 'World' for http://unstats.un.org/unsd/methods/m49/m49.htm#716. Valid display is 'Zimbabwe (ZWE)' (for the language(s) 'en-US') (INVALID)
+/work/fsh-generated/resources/StructureDefinition-LabPatient.json: line 1, col 24395, Info - The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated (BUSINESSRULE)
+/work/fsh-generated/resources/StructureDefinition-LabPatient.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this profile (BUSINESSRULE)
+/work/fsh-generated/resources/ValueSet-ZimGender.json: line 1, col 1731, Error - Wrong Display Name 'World' for http://unstats.un.org/unsd/methods/m49/m49.htm#716. Valid display is 'Zimbabwe (ZWE)' (for the language(s) 'en-US') (INVALID)
+/work/fsh-generated/resources/ValueSet-ZimGender.json: line 1, col 1956, Info - The display 'Not Determined' is not valid in the Code system 'Not Determined'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code (INFORMATIONAL)
+/work/fsh-generated/resources/ValueSet-ZimGender.json: line 1, col 1961, Warning - Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present (REQUIRED)
+
+err = 3, warn = 4, info = 2
+IG Publisher Version: 2.0.26

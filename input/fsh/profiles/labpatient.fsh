@@ -21,7 +21,7 @@ Id: ZimGender
 Title: "Gender Allowed in Zimbabwe"
 Description: "This is the Gender Values that are lawful in Zimbabwe"
 * ^copyright = "MoHCC_ZW"
-* http://hl7.org/fhir/administrative-gender#male = "Male"
-* http://hl7.org/fhir/administrative-gender#female = "Female"
-* http://hl7.org/fhir/administrative-gender#other = "Not Determined"
+* http://hl7.org/fhir/administrative-gender#male "Male"
+* http://hl7.org/fhir/administrative-gender#female "Female"
+* http://hl7.org/fhir/administrative-gender#other "Not Determined"
 

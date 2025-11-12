@@ -12,7 +12,7 @@ Description: "Example of a profile of Patient"
 
 * photo 0..0
 
-* birthDate 1..0
+* birthDate 0..1
 * gender 1..1
 * gender from ZimGenderVS
 
@@ -21,7 +21,7 @@ Id: ZimGender
 Title: "Gender Allowed in Zimbabwe"
 Description: "This is the Gender Values that are lawful in Zimbabwe"
 * ^copyright = "MoHCC_ZW"
-* #male = "Male"
-* #female = "Female"
-* #other = "Not Determined"
+* http://hl7.org/fhir/administrative-gender#male = "Male"
+* http://hl7.org/fhir/administrative-gender#female = "Female"
+* http://hl7.org/fhir/administrative-gender#other = "Not Determined"
 
